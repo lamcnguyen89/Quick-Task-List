@@ -13,7 +13,7 @@ struct Quick_Task_ListApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuickTaskListView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

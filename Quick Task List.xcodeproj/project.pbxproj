@@ -13,6 +13,9 @@
 		DE694752278B5C13002FCFA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE694751278B5C13002FCFA8 /* Preview Assets.xcassets */; };
 		DE694754278B5C13002FCFA8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE694753278B5C13002FCFA8 /* Persistence.swift */; };
 		DE694757278B5C13002FCFA8 /* Quick_Task_List.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE694755278B5C13002FCFA8 /* Quick_Task_List.xcdatamodeld */; };
+		DE69475E278B8D73002FCFA8 /* QuickTaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69475D278B8D73002FCFA8 /* QuickTaskListView.swift */; };
+		DE694760278B8FB5002FCFA8 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE69475F278B8FB5002FCFA8 /* AddTaskView.swift */; };
+		DE694762278BAD65002FCFA8 /* DetailedTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE694761278BAD65002FCFA8 /* DetailedTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		DE694751278B5C13002FCFA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE694753278B5C13002FCFA8 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DE694756278B5C13002FCFA8 /* Quick_Task_List.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Quick_Task_List.xcdatamodel; sourceTree = "<group>"; };
+		DE69475D278B8D73002FCFA8 /* QuickTaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTaskListView.swift; sourceTree = "<group>"; };
+		DE69475F278B8FB5002FCFA8 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		DE694761278BAD65002FCFA8 /* DetailedTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 			children = (
 				DE69474A278B5C10002FCFA8 /* Quick_Task_ListApp.swift */,
 				DE69474C278B5C10002FCFA8 /* ContentView.swift */,
+				DE69475D278B8D73002FCFA8 /* QuickTaskListView.swift */,
+				DE694761278BAD65002FCFA8 /* DetailedTaskView.swift */,
+				DE69475F278B8FB5002FCFA8 /* AddTaskView.swift */,
 				DE69474E278B5C13002FCFA8 /* Assets.xcassets */,
 				DE694753278B5C13002FCFA8 /* Persistence.swift */,
 				DE694755278B5C13002FCFA8 /* Quick_Task_List.xcdatamodeld */,
@@ -146,6 +155,9 @@
 				DE694754278B5C13002FCFA8 /* Persistence.swift in Sources */,
 				DE69474D278B5C10002FCFA8 /* ContentView.swift in Sources */,
 				DE694757278B5C13002FCFA8 /* Quick_Task_List.xcdatamodeld in Sources */,
+				DE694762278BAD65002FCFA8 /* DetailedTaskView.swift in Sources */,
+				DE694760278B8FB5002FCFA8 /* AddTaskView.swift in Sources */,
+				DE69475E278B8D73002FCFA8 /* QuickTaskListView.swift in Sources */,
 				DE69474B278B5C10002FCFA8 /* Quick_Task_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +216,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -259,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
